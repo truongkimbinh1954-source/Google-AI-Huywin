@@ -1,0 +1,7 @@
+{
+  "name": "Copy of AI Video Batch Ad Creator",
+  "description": "Generate high-quality advertising scene prompts and concept images for Veo 3 video creation by combining model, product, and background images.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
