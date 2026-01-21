@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   Download, Copy, Play, FileText, 
-  ImageIcon, Trash2, Zap, LayoutGrid, CheckCircle2, ChevronRight, Loader2, Sparkles, FolderArchive, Trash, AlertTriangle, X
+  Image as ImageIcon, Trash2, Zap, LayoutGrid, CheckCircle2, ChevronRight, Loader2, Sparkles, FolderArchive, Trash, AlertTriangle, X
 } from 'lucide-react';
 import { GlobalState, ProductionRow, AspectRatio, AdScene } from './types';
 import { generateConceptImages, generateVideoFlow } from './services/geminiService';
@@ -215,8 +215,8 @@ const App: React.FC = () => {
               <Zap className="text-white w-6 h-6 fill-white" />
             </div>
             <div>
-              <h1 className="font-black text-lg tracking-tighter text-white uppercase">Veo 3 Ad Factory</h1>
-              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-widest">Automation Script & Prompt Engine</p>
+              <h1 className="font-black text-lg tracking-tighter text-white uppercase">TÚI XÁCH</h1>
+              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-widest">From by HUYWIN</p>
             </div>
           </div>
 
@@ -240,7 +240,6 @@ const App: React.FC = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              {/* NÚT XÓA TẤT CẢ - ĐÃ FIX TRIỆT ĐỂ */}
               <button 
                 onClick={handleClearButtonClick}
                 className={`relative group flex items-center gap-2 px-4 py-3 rounded-2xl font-bold text-xs transition-all border shadow-lg active:scale-95 ${isConfirmingClear ? 'bg-rose-600 border-rose-500 text-white animate-pulse' : 'bg-slate-900 border-white/5 text-slate-500 hover:text-rose-400 hover:border-rose-500/30'}`}
